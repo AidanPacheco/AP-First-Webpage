@@ -1,9 +1,21 @@
-/* Element selector targeting the headline of the page*/
 h1 {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: 'Montserrat', sans-serif; /* Bold, modern header font */
+    font-size: 48px; /* Prominent size */
+    font-weight: 700; /* Extra bold */
+    text-align: center; /* Center-align for emphasis */
+    color: #333333; /* Professional dark grey */
+    margin: 20px 0;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif; /* Clean and readable paragraph font */
+    font-size: 18px; /* Comfortable reading size */
+    line-height: 1.6; /* Improved line spacing */
+    text-align: left; /* Align to the left */
+    color: #555555; /* Softer grey for body text */
+  }
+  
+
 
 /*Universal Selector targeting the background of the page*/
 * {background-color: cornsilk;}
