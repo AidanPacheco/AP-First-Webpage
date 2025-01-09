@@ -2,6 +2,7 @@
 h1 {
     color: rgb(0, 0, 0);
     font-weight: bold;
+    font-family: cursive;
 }
 
 /*Universal Selector targeting the background of the page*/
