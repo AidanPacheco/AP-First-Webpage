@@ -8,13 +8,11 @@ h1 {
 * {background-color: cornsilk;}
 
 p {
-    font-size: 18px; /* Changes the font size for the paragraph*/
-    text-align: left; /* Aligns all text to the left */
-    white-space: pre-wrap; /* Ensures breaks are preserved */
-    margin: 0; /* Removes extra space around the paragraph */
+    font-family: Arial, sans-serif; /* Sets the font to Arial */
+    font-size: 18px; /* Sets the font size */
+    text-align: left; /* Aligns text to the left */
+    white-space: pre-wrap; /* Preserves line breaks in the text */
+    line-height: 1.6; /* Improves readability with proper spacing */
   }
   
-  p::after {
-    content: ""; /* Clear any added content from before */
-  }
   
