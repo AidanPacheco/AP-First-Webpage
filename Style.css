@@ -1,4 +1,11 @@
+/* Element selector targeting the headline of the page*/
 h1 {
     color: cornflowerblue;
     font-weight: bold;
+}
+
+
+/*Class selector targeting background colour*/
+.highlight {
+    background-color: cornsilk;
 }
