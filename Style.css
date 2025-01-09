@@ -1,24 +1,44 @@
-h1 {
-    font-family: 'Montserrat', sans-serif; /* Bold, modern header font */
-    font-size: 48px; /* Prominent size */
-    font-weight: 700; /* Extra bold */
-    text-align: center; /* Center-align for emphasis */
-    color: #333333; /* Professional dark grey */
-    margin: 20px 0;
+/* Apply gradient background */
+body {
+    background: linear-gradient(to bottom, #1A237E, #000000); /* Dark Blue to Black gradient */
+    color: #FFFFFF; /* White text color for contrast */
+    font-family: 'Roboto', sans-serif; /* Clean, modern font */
+    margin: 0;
+    padding: 0;
   }
   
+  /* Styling for header */
+  h1 {
+    font-family: 'Montserrat', sans-serif; /* Bold header font */
+    font-size: 48px; /* Large size for emphasis */
+    color: #FFFFFF; /* White text for the header */
+    text-align: center; /* Center-align the header */
+    margin: 20px 0; /* Top and bottom margin */
+  }
+  
+  /* Styling for paragraph */
   p {
-    font-family: 'Roboto', sans-serif; /* Clean and readable paragraph font */
-    font-size: 18px; /* Comfortable reading size */
-    line-height: 1.6; /* Improved line spacing */
-    text-align: left; /* Align to the left */
-    color: #555555; /* Softer grey for body text */
+    font-family: 'Roboto', sans-serif; /* Clean font for paragraph */
+    font-size: 18px; /* Readable size */
+    line-height: 1.6; /* Line spacing for readability */
+    color: #FFFFFF; /* White text for the paragraph */
+    text-align: left; /* Left-align the paragraph */
+    margin: 0 20px; /* Left and right margin */
   }
   
-
-
-/*Universal Selector targeting the background of the page*/
-* {background-color: cornsilk;}
-
-
+  /* Button and link styles */
+  button, a {
+    background-color: #008080; /* Teal button background */
+    color: #FFFFFF; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  button:hover, a:hover {
+    background-color: #005757; /* Darker teal on hover */
+  }
   
