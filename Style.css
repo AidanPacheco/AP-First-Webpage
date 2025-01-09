@@ -4,8 +4,6 @@ h1 {
     font-weight: bold;
 }
 
+/*Universal Selector targeting the background of the page*/
+* {background-color: cornsilk;}
 
-/*Class selector targeting background colour*/
-.highlight {
-    background-color: cornsilk;
-}
