@@ -27,7 +27,7 @@ h1 {
 .content img {
     display: block;
     margin-bottom: 10px; /* Adds space below the image */
-    border-radius: 50%; /* Optional: Makes the image circular */
+    border-radius: 50%; /* Makes the image circular */
 }
 
 /* Styling for email link */
