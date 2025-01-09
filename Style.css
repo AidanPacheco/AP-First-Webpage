@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Clean, modern font */
     margin: 0;
     padding: 0;
+    text-align: center; /* Center-align all elements within body */
   }
   
   /* Styling for header */
@@ -12,8 +13,15 @@ body {
     font-family: 'Montserrat', sans-serif; /* Bold header font */
     font-size: 48px; /* Large size for emphasis */
     color: #FFFFFF; /* White text for the header */
-    text-align: center; /* Center-align the header */
     margin: 20px 0; /* Top and bottom margin */
+  }
+  
+  /* Center the image and make sure it fits */
+  .center-image {
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally */
+    max-width: 80%; /* Optional: Adjusts image size */
+    height: auto; /* Maintains aspect ratio */
   }
   
   /* Styling for paragraph */
