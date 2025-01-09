@@ -1,6 +1,6 @@
 /* Element selector targeting the headline of the page*/
 h1 {
-    color: cornflowerblue;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
