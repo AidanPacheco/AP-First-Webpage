@@ -52,8 +52,9 @@ p {
     font-size: 18px; /* Readable size */
     line-height: 1.6; /* Line spacing for readability */
     color: #FFFFFF; /* White text for the paragraph */
-    text-align: left; /* Left-align the paragraph */
-    margin: 0 20px; /* Left and right margin */
+    text-align: center; /* Center-align the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    max-width: 800px; /* Optional: Limit the paragraph's width for readability */
 }
 
 /* Styling for the form */
