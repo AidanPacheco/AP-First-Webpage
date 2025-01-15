@@ -44,20 +44,34 @@
     </article>
 </section>
 
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
     <form>
-        <label>name<input type="text"></label>
-        <label>email<input type="email"></label>
-        <label>number<input type="tel"></label>
-        <label for="Reason">Select Reason:</label>
-        <select name="Reason" id="Reason">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="reason">Select Reason:</label>
+        <select name="reason" id="reason">
             <option value="question">Question</option>
             <option value="review">Review</option>
             <option value="enquiry">Enquiry</option>
             <option value="help">Help</option>
         </select>
-        <label for="Message">Message:</label>
-        <textarea id="Message" name="Message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter your message here..." required></textarea>
+        
         <button type="submit">Submit</button>
     </form>
+    <p>Email: <a href="mailto:aidanrpacheco@gmail.com">aidanrpacheco@gmail.com</a></p>
+    <p>Phone: <a href="tel:+447395537469">+447395537469</a></p>
+</section>
+
+
 </body>
 </html>
